@@ -1,0 +1,71 @@
+html,
+body,
+#eyes {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
+  roboto, noto, segoe ui, arial, sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#eyes {
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.leftEye,
+.rightEye
+{
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+.leftEye {
+  width: 100px;
+  height: 100px;
+  top : 40%;
+  left : 30%;
+  border-radius: 50%;
+  background-color: grey ;
+}
+
+.rightEye {
+  width: 100px;
+  height: 100px;
+  top : 40%;
+  left: 60%;
+  border-radius: 50%;
+  background-color: grey ;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eye {
+  width: 30%;
+  height: 30%;
+  border-radius: 50% 50%;
+  border: 1px solid;
+  overflow: hidden;
+  top:25%;
+}
